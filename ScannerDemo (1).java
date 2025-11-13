@@ -14,7 +14,7 @@ public class ScannerDemo {
 		System.out.println(file1);
 		while (!ts.isEndofFile()) {
 			// TO BE COMPLETED
-			// System.out.println("Token " + counter++ + " - Type: " + tk.getType() + " - Value: " + tk.getValue());
+			System.out.println("Token " + counter++ + " - Type: " + tk.getType() + " - Value: " + tk.getValue());
 		}
 	}
 }
